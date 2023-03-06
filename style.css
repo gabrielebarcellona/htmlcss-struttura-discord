@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header{
+    background-color: rgb(143, 228, 217);
+}
 .container{
+ 
    display: flex;
    max-width: 800px;
    margin:auto;
@@ -70,7 +73,7 @@
     border: dotted black;
 }
 .container4{
-    background-color:grey ;
+    background-color:rgb(216, 214, 214); 
     display: flex;
     margin-top: 30px;
     justify-content: center;
@@ -91,7 +94,7 @@
     border: dotted black;
   }
   .container5{
-    background-color: grey;
+    background-color: rgb(216, 214, 214);
     padding-top: 30px;
     margin-top: 30px;
     padding-bottom: 30px;
@@ -105,6 +108,60 @@
     background-color: green;
   }
 
-  
+  .container6{
+    background-color: black;
+    display: flex; 
+    padding-bottom: 20px;
+  }
 
+.quadrato-fucsia{
+ background-color: rgb(212, 98, 212);
+ height: 300px;     
+ width:200px ;
+ margin-left: 300px;
+ margin-top: 5px;
 
+}
+.quadrato-verde2{
+    background-color: rgb(54, 154, 154);
+    height: 300px;
+    width: 130px;
+    border: dotted white;
+    margin-top: 5px;
+}
+.last-div{
+   background-color: aquamarine; 
+   margin: auto;
+   max-width: 700px;
+   height: 70px;
+   width: 700px;
+   margin-top: 1px;
+
+}
+footer{
+    background-color: black ;
+    display: flex;
+    margin-top: 1px;
+    padding-top:10px ;
+    
+    
+}
+.logo{
+    border:dotted black;
+    background-color:rgb(212, 98, 212); 
+    width: 40px;
+    margin-top: 15px;   
+}
+.button{
+    display: flex;
+    border: dotted black;
+    background-color: rgb(212, 98, 212);
+     margin-left: 650px;
+     margin-top: -20px;   
+    width: 50px;
+}
+
+    
+    
+
+   
