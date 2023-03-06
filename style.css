@@ -6,27 +6,105 @@
 
 .container{
    display: flex;
-    background-color:cornflowerblue;
+   max-width: 800px;
+   margin:auto;
+   
     height: 50px;
 }
-nav{
-    
+.nav1{
+    width: 20%;
     height: 30px;
-    width: 850px;
     background-color:gold;
     margin-top: 10px;
-    margin-left: 300px;
     border: dotted black;
 }
+.nav2{
+    width: 60%;
+    height: 30px;
+    background-color:gold;
+    margin-top: 10px;
+    border: dotted black;
+    text-align: center;
+    }
+    .nav3{
+        width: 20%;
+        height: 30px;
+        background-color:gold;
+        margin-top: 10px;
+        text-align: end;
+        border: dotted black;
+        }
+
+
 .container2{
     background-color: blue;
-    height: 400px;
+    height: 360px;
+    padding-top:30px ;
 }
 .rettangolo-rosa{
-    height: 150px;
+    height: 300px;
     width: 500px;
     background-color:mediumorchid;
     margin-left: 470px;
-   
 }
+.container3{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.quadrato-celeste{
+    
+    width: 60%;
+    height: 250px;
+    background-color:cadetblue;
+    border: dotted black;
+}
+
+.quadrato-rosa{
+    width: 40%;
+    height: 250px;
+    background-color:pink;
+    border: dotted black;
+}
+.container4{
+    background-color:grey ;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    padding:30px ;
  
+  }
+  .quadrato-celeste2{
+    background-color: blue;
+    width: 25%;
+    height: 250px;
+    border: dotted black;
+   
+  }
+  .quadrato-rosa2{
+    width: 15%;
+    height: 250px;
+    background-color:pink;
+    border: dotted black;
+  }
+  .container5{
+    background-color: grey;
+    padding-top: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+  }
+  .quadrato-verde{
+
+    margin-left: 35%;
+    height: 400px;
+    width: 450px;
+    background-color: green;
+  }
+
+  
+
+
