@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    background-color:cornflowerblue;
+    height: 50px;
+}
+nav{
+    
+    height: 30px;
+    width: 850px;
+    background-color:gold;
+    margin-top: 10px;
+    margin-left: 300px;
+    border: solid black;
+}
+.container2{
+    background-color: blue;
+    height: 300px;
+}
